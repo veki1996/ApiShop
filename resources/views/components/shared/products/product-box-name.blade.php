@@ -1,0 +1,2 @@
+
+<a aria-label="Read more about {{ $product->name}} - {{ $product->realName }}" href="{{ env('APP_URL') }}/{{ $link }}{{ \App\Helpers\RouteHelper::appendParameters() }}{{ request()->getQueryString() ? '&' : '' }}{{ $product->utm_pod ? 'utm_pod=' . $product->utm_pod : '' }}"><p class="product-box-name">{!!$name!!} - {!!$title!!}</p></a>

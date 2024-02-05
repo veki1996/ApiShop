@@ -1,0 +1,33 @@
+#tmpl_11_slider 
+{
+    width: 50%;
+    margin: 4rem auto;
+}
+
+.splide__slide 
+{
+    text-align: center;
+}
+
+#tmpl_11_slider > div.splide__arrows.splide__arrows--ltr > button.splide__arrow.splide__arrow--prev 
+{
+    margin-left: -0.7rem;
+}
+
+#tmpl_11_slider > div.splide__arrows.splide__arrows--ltr > button.splide__arrow.splide__arrow--next 
+{
+    margin-right: -0.7rem;
+}
+
+#tmpl_11_slider  h2 
+{
+    margin-bottom: 1rem;
+}
+
+@media (max-width:700px)
+{
+    #tmpl_11_slider 
+{
+    width: 100%;
+}
+}

@@ -1,0 +1,107 @@
+
+    
+    .gift-banner {
+        
+        margin-bottom: 30px;
+        max-width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .gift-banner img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .gift-banner-text {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+    }
+
+    .gift-banner-text h2 {
+        color: #1A1A1A;
+        font-family: Libre Caslon Text;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 12px;
+    }
+
+    .gift-banner-text p {
+        color: #727272;
+        font-family: 'Didact Gothic';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 0px
+    }
+   
+    @media (max-width: 1000px) {
+        .gift-banner-text {
+    max-width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);}
+    }
+    @media (max-width: 800px) {
+        .gift-banner-text h1{
+            font-size: 1.75rem;
+         } 
+         
+         .gift-banner-text p{
+            font-size: 1.25rem;
+            
+
+         }
+    }
+    @media (max-width: 550px) {
+        .gift-banner-text{
+            max-width: 300px;
+        }
+        .gift-banner-text h1{
+            font-size: 1.25rem;
+         } 
+         
+         .gift-banner-text p{
+            font-size: 1rem;
+         }
+    }
+    @media (min-width: 451px) {
+        .poklon-mobile{
+            display: none;
+
+        }
+       
+    }
+    @media (max-width: 462px) {
+        .gift-banner-text {
+            max-width: 261px;}
+    }
+    @media (max-width: 450px) {
+         .poklon-desktop{
+            display: none;
+         } 
+         .gift-banner-text h1{
+            font-size: 1.75rem;
+         } 
+         
+         .gift-banner-text p{
+            font-size: 1rem;
+            margin-bottom: 2rem;
+         }
+         .gift-banner-text{
+            width: 90%;
+            position: absolute;
+            top: 7rem;
+            left: 50%;
+            transform: translate(-50%, -50%);
+         }
+         .gift-banner img {
+            width: 100%;
+         }
+         }

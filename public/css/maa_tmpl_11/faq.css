@@ -1,0 +1,37 @@
+
+
+.faq-section 
+{
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .129);
+    margin-bottom: 0;
+}
+
+.faq-section h1 
+{
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+.faq-section p 
+{
+    margin-bottom: 1.5rem;
+}
+
+.faq-paragraph 
+{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 6px;
+}
+
+@media (max-width:500px)
+{
+    .faq-section 
+    {
+        width: 100%;
+    }
+}

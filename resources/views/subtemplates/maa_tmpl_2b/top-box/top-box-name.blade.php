@@ -1,0 +1,1 @@
+<h1 class="top-box-name">{!! $product->name !!} - {!! $product->shortDescription !!}</h1>

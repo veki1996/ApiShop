@@ -1,0 +1,13 @@
+.face-container {
+    display: flex;
+    overflow-x: auto;  
+    white-space: nowrap;  
+}
+
+.face-item {
+    background-color: red;
+    width: 100%;  
+    max-width: 480px;  
+    box-sizing: border-box;  
+    display: inline-block;  
+    vertical-align: top;  }

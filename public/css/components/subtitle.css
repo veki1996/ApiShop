@@ -1,0 +1,47 @@
+.global-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+    
+}
+
+.subtitle-line {
+    width: 182px;
+    height: 1px;
+    background: #727272;
+}
+
+.global-subtitle p {
+    color: #727272;
+    font-family: 'Didact Gothic';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+/* 
+MEDIA QUERIES
+*/
+
+@media screen and (max-width: 800px) { 
+
+    .global-subtitle{
+        margin-top: -16px;
+    }
+    .global-subtitle p {
+
+        font-size: 18px;
+        
+        margin-left: 16px;
+        margin-right: 16px;
+    
+    }
+    .subtitle-line{
+        width: 32px;
+    }
+}

@@ -1,0 +1,78 @@
+.grades-num{
+    font-family: "Roboto", Sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-right: 30px;
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.skills{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 0px 10px;
+}
+.progress-bar {
+    width: 85%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color: #eee;
+}
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: #FCB900;
+    border-radius: 2px;
+    animation: progress 1500ms ease-in;
+}
+.progress-bar-container{
+    height:60px;
+}
+.rate1 {
+    width: 0%;
+}
+.rate2 {
+    width: 0%;
+}
+.rate3 {
+    width: 40%;
+}
+.rate4 {
+    width: 65%;
+}
+.rate5 {
+    width: 95%;
+}
+.grades-text h2{
+    text-align: center;
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.grades-subtitle{
+    font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+}
+.grades-stars{
+    width: 116px;
+    height: 28px;
+}
+.grades-s-padd{
+    padding-top:3px;
+}
+
+@media (max-width: 768px){
+    .skills .grades-num {
+        font-size: 29px;
+        margin-right: 10px;
+    }
+}

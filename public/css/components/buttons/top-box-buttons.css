@@ -1,0 +1,50 @@
+.w-50 {
+    width: 50%;
+}
+
+.top-box-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top:1.5rem;
+}
+
+.top-box-buttons div 
+{
+    width: 100%;
+}
+
+.add-top-box {
+    font-family: 'Didact Gothic';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* margin-top: 1rem; */
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 500px) { 
+    .top-box-buttons{
+        flex-direction: column;
+    }
+    .w-50{
+        width: 100%;
+    }
+
+    .scroll 
+    {
+        font-size: 1.3rem !important;
+    }
+}
+@media screen and (max-width: 500px){
+    .sm-s-text{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 740px) { 
+    .add-to-cart , .to-checkout {
+        font-size: 1rem;
+    }
+}

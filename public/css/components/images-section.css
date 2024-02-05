@@ -1,0 +1,28 @@
+.images-section-images {
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.images-section-images img {
+    flex: 1;
+    max-width: 100%;
+}
+
+
+
+/*@media (max-width:1000px)*/
+/*{*/
+/*    .images-section-images {*/
+/*        flex-wrap: wrap;*/
+/*    }}*/
+
+/*@media screen and (max-width:800px) {*/
+/*    .images-section-images{*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(4, 1fr);*/
+/*        margin: 16px 0px;*/
+/*    }*/
+
+/*}*/

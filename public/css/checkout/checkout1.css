@@ -1,0 +1,112 @@
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 11rem;
+    gap: 2rem;
+}
+
+.checkout-data {
+    width: 55%;
+}
+
+/* .checkout-submit-data {
+    width: 35%;
+} */
+
+.checkout-title {
+
+        color: #323232;
+        /* text-align: center; */
+        font-family: 'Didact Gothic';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        /* text-align: center; */
+        margin-bottom: 40px;
+        margin-top: 15px;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #A5A5A5;
+        /* 135.714% */
+
+}
+.paypay{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.yourInfo {
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.typeTitle,
+.typePrice {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #070707;
+}
+
+/* .checkout-submit-data {
+    height: fit-content;
+    padding: 1rem 2rem;
+    border: 0.4px solid rgba(165, 165, 165, 0.32);
+    background: #FEFEFE;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04), 0px 4px 6px 0px rgba(14, 14, 33, 0.04), 0px 6px 16px 0px rgba(14, 14, 33, 0.04), 0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+} */
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1000px) {
+    .checkout-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 800px) {
+    .checkout-data{
+        width:100%;
+    }
+    .checkout-title{
+        font-size: 24px;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .yourInfo{
+    font-size: 16px;
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    }
+    .typeTitle,
+    .typePrice {
+     font-family: 'Didact Gothic';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #070707;
+}
+}
+@media (max-width: 800px) {
+.checkout-container{
+    padding: 0rem 1rem;
+}
+}
+
+@media (max-width:450px)
+{
+    .checkout-title{
+        border-bottom: none;
+    }
+}
+

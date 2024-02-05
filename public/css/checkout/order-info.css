@@ -1,0 +1,67 @@
+.checkout-order-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.order-info-title {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+.order-products, .order-services {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+
+.qty-name-data{
+    display: flex;
+    gap: 1rem;
+    text-align: left;
+    align-items: center;
+}
+
+.order-products > h4, .order-services > h4 {
+    padding-bottom: 0.5rem;
+}
+.order-products-data, .order-services-data {
+    display: flex;
+    flex-direction: column;
+}
+
+ .total-checkout-price {
+    display: flex;
+    width: 100%;
+    color: #323232;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-family: 'Didact Gothic';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    padding: 1.5rem 0;
+    border-top: 1px solid black;
+}
+
+ .product-data, .service-data {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #8A8A8A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    padding: 0.25rem 0;
+}
+
+.remove-product-checkout, .remove-service {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}

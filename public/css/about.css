@@ -1,0 +1,352 @@
+
+
+/* HERO SECTION */
+
+.hero-about-container{
+    margin-top:6.75rem ;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.about-hero-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 54.8125rem;
+}
+.about-us-hero-title{
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Libre Caslon Text;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-hero-text p {
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Libre Caslon Text;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 142.857% */
+  
+}
+
+/* MAIN SECTION */
+.about-section{
+    display: flex;
+    width: 100%;
+    padding: 2rem 16.25rem;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+    
+}
+.section-container{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.main-about-text{
+    display: flex;
+    flex-direction: column;
+    width: 28.125rem;
+}
+.about-text-heading{
+    color: #323232;
+    text-align: right;
+    font-family:'Libre Caslon Text';
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; /* 142.857% */
+}
+.about-text-p{
+    color: #323232;
+    text-align: right;
+    font-family: 'Didact Gothic';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 133.333% */
+    margin: 0;
+}
+
+.gray{
+    background-color: #F5F5F5;
+}
+.reverse{
+    flex-direction: row-reverse;
+    background-color: #FEFEFE;
+}
+.left{
+    text-align: left;
+}
+
+/* MEDIA QUERIES */
+
+/* HERO */
+@media screen and (max-width: 500px) { 
+    .hero-about-container{margin-top: 3.5rem;
+    
+}}
+@media screen and (max-width: 840px) { 
+    .hero-about-container{height: 320px;}
+    .about-us-hero-title{ font-size: 24px;}
+    .about-hero-text p {font-size: 16px;}
+    .about-hero-img{height: 100%;}
+    .about-hero-text{width: 80%;}
+    
+}
+
+/* MAIN */
+@media screen and (max-width: 1280px) {
+    .about-section {padding: 1.5rem 8rem;}
+} 
+@media screen and (max-width: 1024px) {
+    .about-section {padding: 1.5rem 4rem;}
+}
+@media screen and (max-width: 870px) {
+    .about-section {padding: 1.5rem 2rem;}
+} 
+@media screen and (max-width: 800px) {
+    .about-section {padding:0;}
+    .section-container{
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 2rem; */
+        gap: 2rem;
+    }
+    .main-about-text{
+        margin: 0.5rem;
+        width: auto;
+    }
+    .main-about-text h4{
+        text-align: left;
+        margin: 0;
+    }
+    .main-about-text p{
+        text-align: left;
+    }
+    .section-container img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 460px) {
+   
+    .main-about-text h4{
+       font-size:1.75rem ;
+    }
+    .main-about-text p{
+       font-size: 1rem;
+    }
+}
+
+
+/* ABOUT 2  */
+.hero-about2-container{
+    margin-top: 6.75rem;
+    position: relative;
+    background-color: #ffff;
+    DISPLAY: FLEX;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:center;
+}
+.about2-hero-img{
+     
+        background-repeat: no-repeat;
+       
+}
+.about2-hero-text{
+    width: 36.8125rem;
+
+}
+.about2-us-hero-title{
+    color: #323232;
+    text-align: left;
+    font-family:'Libre Caslon Text';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about2-hero-text p{
+    color: #323232;
+    text-align: left;
+    font-family: 'Didact Gothic';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.section-container2{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    flex-flow: row-reverse;
+    align-items: center;
+}
+.about2-section{
+    display: flex;
+    width: 100%;
+    padding: 3rem 0.25rem;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+}
+
+.about2-text-heading{
+    color: #323232;
+    text-align: left;
+    font-family: 'Libre Caslon Text';
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; /* 142.857% */
+}
+.about2-text-p{
+    color: #323232;
+    text-align:left;
+    font-family: 'Didact Gothic';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 133.333% */
+}
+
+.main-about2-text{
+    display: flex;
+    flex-direction: column;
+    width: 28.125rem;
+    position: absolute;
+    left:11rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .about2-section {padding: 1.5rem 8rem;}
+} 
+@media screen and (max-width: 1024px) {
+    .about2-section {padding: 1.5rem 4rem;}
+}
+@media screen and (max-width: 870px) {
+    .about2-section {padding: 1.5rem 2rem;}
+} 
+@media screen and (max-width: 800px) {
+    .hero-about2-container{
+        display: block;
+    }
+    .hero-about2-container img{
+        width: 100%;
+        margin-top: 33%;
+    }
+    .about2-hero-text {
+        width:80%;
+        position: absolute;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about2-us-hero-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .about2-hero-text p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .about2-section {padding:0;}
+    .section-container2{
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 2rem; */
+        gap: 2rem;
+    }
+    .main-about2-text{
+        margin: 0.5rem;
+        width: auto;
+    }
+    .main-about2-text h4{
+        text-align: left;
+        margin: 0;
+    }
+    .main-about2-text p{
+        text-align: left;
+    }
+    .section-container2 img{
+        width: 100%;
+    }
+
+    .main-about2-text{
+        position: unset;
+
+    }
+    .section-container2{
+        flex-flow: column-reverse;
+    }
+    .main-about2-text p{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px) { 
+    .about2-hero-text{
+        width: 90%;
+    }
+    .hero-about2-container{
+        margin-top: 3.75rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .hero-about2-container img{
+        margin-top: 40%;
+    }
+   
+    .main-about2-text h4{
+       font-size:1.75rem ;
+    }
+    .main-about2-text p{
+       font-size: 1rem;
+    }
+}
+@media screen and (max-width: 416px) {
+    .hero-about2-container img{
+        margin-top: 48%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .hero-about2-container img{
+        margin-top: 50%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .hero-about2-container{
+        margin-top: -0.25rem;
+    }
+    .hero-about2-container img{
+        margin-top: 55%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .hero-about2-container img{
+        margin-top: 60%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .hero-about2-container img{
+        margin-top: 66%;
+    }
+    .about2-hero-text{
+        width: 93%;
+    }
+}

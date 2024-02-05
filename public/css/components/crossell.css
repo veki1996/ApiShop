@@ -1,0 +1,348 @@
+
+.successfulOrder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.succTitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.onlyToday {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.onlyToday h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.onlyToday p {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.first {
+    margin-bottom:-16px;
+    margin-top: -10px;
+}
+
+#procent {
+    color: rgb(194, 18, 37);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#lowerPrice {
+    font-weight: bold;
+}
+
+.napomena {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.offer h1 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.offer span {
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 29px;
+    line-height: 33px;
+    text-align: center;
+    background: #762F2A;
+    padding: 15px 10px;
+    letter-spacing: 5px;
+    position: relative;
+    width: 120px;
+    letter-spacing: 38px;
+    padding-left: 25px;
+}
+
+.whiteLine1 {
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #FEFEFE;
+    left: 57px;
+    z-index: 100;
+
+}
+.whiteLine2{
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #FEFEFE;
+    left: 221px;
+    z-index: 100;
+
+}
+
+#validationMsg 
+{
+    color: #c21225;
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 1rem;
+    display: none;
+ }
+
+#cube-after {
+    background: transparent;
+    position: relative;
+    width: 0px;
+}
+
+#seconds{
+    margin-left:8px;
+}
+
+#cube-after::after {
+    content: ' ';
+    display: inline-block;
+    background: #070707;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 6px;
+}
+
+#cube-after::before {
+    content: ' ';
+    display: inline-block;
+    background: #070707;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 6px;
+    top: 40px;
+}
+
+
+.grid-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 1rem;
+}
+
+.box {
+    padding: 0.5rem;
+    font-family: 'Didact Gothic', 'Didact Gothic';
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04), 0px 4px 6px 0px rgba(14, 14, 33, 0.04), 0px 6px 16px 0px rgba(14, 14, 33, 0.04), 0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+}
+
+.quantityBox
+{
+    display: flex;
+    align-items: center;
+}
+
+.box .product-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.box h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.box label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 12px;
+}
+
+#qty-select {
+    padding: 2px 15px;
+    border: #464242;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* margin-bottom: 22px; */
+    color: #8A8A8A;
+}
+
+.price span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: line-through;
+}
+
+.box .button-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.add-btn {
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    /* margin-top: 15px; */
+    background: white;
+    border: 1px solid #C69C6D;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #C69C6D !important;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.refuse,
+.approved {
+    display: flex;
+    align-items: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin: 12px auto;
+    width: 330px;
+}
+
+.refuse button {
+    color: #762F2A !important;
+    border: 1px solid #762F2A;
+    padding: 12px 24px;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    font-size: 1rem;
+}
+
+.approved button {
+    padding: 12px 24px;
+    color: white !important;
+    background: #762F2A;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 0;
+    font-size: 1rem;
+}
+
+
+.quantityBox{
+    display: flex;
+    height: 16px;
+    align-items: center;
+    gap:4px;
+    margin-bottom: 4px;
+}
+
+.quantitySelector select{
+    width: 45px;
+    height: 27px;
+    padding-left: 8px;
+}
+
+.offer center {
+    margin-top:28px;
+    display: flex;
+    position: relative;
+
+}
+
+.box h3 {
+    height:70px;
+    margin-bottom: 6px;
+}
+
+.qtyText{
+    font-size: 16px;
+
+}
+
+.added-btn
+{
+    background: #C69C6D !important;
+    color: #ffff !important;
+}
+.cs-stars-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cs-stars-container div{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.cs-stars-container img{
+    max-width: 1rem;
+    max-height: 1rem;
+    width: 1rem;
+    height: 1rem;
+}
+.cs-sticky-buttons-container{
+    padding: 1rem;
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 0.5rem;
+    position: sticky;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    left: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.quantityBox 
+{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width:350px) {
+    .refuse,
+    .approved {
+    width: 240px;
+} 
+}

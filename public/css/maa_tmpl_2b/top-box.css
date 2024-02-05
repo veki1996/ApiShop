@@ -1,0 +1,390 @@
+.product-top-box-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-top-box-text 
+{
+    text-align: start;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.product-top-box-text .top-box-name {
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.product-top-box-text .top-box-stars {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+#quantity {
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: start !important;
+}
+
+.product-top-box-text .top-box-stars p {
+    color: #8a8a8a;
+    text-align: center;
+    font-family:'Didact Gothic';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-top-box-text .top-box-description {
+    margin-bottom: 0;
+    /* margin-top: 1.5rem; */
+}
+
+.product-top-box-text .top-box-description p {
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    margin-bottom: 1rem;
+    margin-top:0;
+}
+
+.product-top-box-text .top-box-price {
+    color: #a5a5a5;
+    font-family: 'Didact Gothic';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+#discounted-price{
+    font-size: 24px;
+    text-decoration: line-through;
+    
+}
+.top-box-prices.selected {
+    border: 1px solid #323232 !important;
+}
+
+#euro-price {
+    color: #323232;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.product-top-box-text .deliveryDate {
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-right: 0.5rem;
+    background-color: rgb(235, 222, 207);
+    
+    max-width: fit-content;
+    
+}
+
+.padding 
+{
+    padding: 0.5rem;
+}
+.product-top-box-text .deliveryDate span {
+    text-transform: uppercase;
+}
+.top-box-quantity {
+    display: flex;
+    /* align-items: center; */
+    gap: 8px;
+    margin-top: 0.75rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.top-box-quantity .top-box-prices {
+    display: flex;
+    padding: 8px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border: none;
+    background: #fefefe;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04),
+        0px 4px 6px 0px rgba(14, 14, 33, 0.04),
+        0px 6px 16px 0px rgba(14, 14, 33, 0.04),
+        0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+}
+
+.top-box-quantity .top-box-prices {
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-right: 16px; */
+}
+
+.top-box-quantity .top-box-prices span {
+    font-weight: 500;
+}
+
+#num {
+    font-size: 14px;
+}
+
+.freeDelivery 
+{   
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+    background-color: rgb(196, 228, 198);
+    margin-right: 0.5rem;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.freeDelivery img 
+{
+    margin-left: 0.5rem;
+}
+
+.qty-amount 
+{
+    font-weight: 600 !important;
+}
+
+.product-top-box-section .to-checkout 
+{
+    display: flex;
+}
+
+
+@media screen and (min-width: 900px) 
+    {
+        .product-image img 
+        {
+            max-width: none;
+            width: 90%;
+            margin: 0;
+        }
+        
+        .fotorama__stage 
+        {
+            height: 600px !important;
+        }
+
+        .fotorama__stage__shaft 
+        {
+            height: 600px !important;
+        }
+
+        .fotorama__stage__frame 
+        {
+            height: 600px !important;
+        }
+        .top-box-name {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        
+        .product-top-box-text 
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .top-box-quantity
+        {
+            margin-bottom: 1rem;
+        }
+
+    }
+
+@media screen and (max-width: 800px) {
+    .top-box-quantity .top-box-prices {
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .qty-amount {
+        width: 100%;
+    }
+    .product-image {
+        margin-right: 0rem;
+        margin-bottom: -0.33rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .product-top-box-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product-top-box-text{
+        margin: 1rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .product-top-box-text{
+        margin: 1rem;
+    }
+    .product-top-box-section {
+        text-align: center;
+        flex-direction: column;
+    }
+    .top-box-quantity .top-box-prices {
+        padding: 5px;
+    }
+    .product-top-box-text {
+        margin: 25rem 8px 0;
+    }
+    .product-image {
+        width: 100%;
+    }
+    .product-top-box-text .top-box-stars {
+        margin-bottom: 24px;
+    }
+    .top-box-quantity .top-box-prices {
+        margin-right: 0px;
+    }
+    .top-box-quantity {
+        gap: 16px;
+    }
+    .top-box-quantity .top-box-prices span {
+        /* width: 100%; */
+        text-align: center;
+    }
+    .top-box-stars p {
+        margin: 0;
+    }
+    .fotorama-image 
+    {
+        position: relative !important;
+        margin: 0rem auto !important;
+        margin-bottom: 2.5rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .product-top-box-text {
+        margin: 0 0.5rem;
+        
+    }
+    .ws-frilla-main-wrapper 
+    {
+        padding-top: 0;
+    }
+    .product-top-box-text {
+        width: 95%;
+    }
+    .top-box-name 
+    {
+        margin-top: 14.5px;
+    }
+}
+/* }
+@media screen and (max-width: 420px) {
+    .product-top-box-text {
+        margin: 21rem 8px 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .product-top-box-text {
+        margin: 20rem 8px 0;
+    }
+} */
+
+@media (max-width:410px)
+{
+    .top-box-quantity .top-box-prices 
+    {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    /* .product-top-box-text {
+        margin: 17rem 8px 0;
+    } */
+    .top-box-quantity .top-box-prices {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    /* .product-top-box-text {
+        margin: 17rem 8px 0;
+    } */
+    .top-box-quantity .top-box-prices {
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+
+
+/* TMPL 11  */ 
+
+
+#text-second{
+    color: #4caf50;
+    font-size: 17px;
+    font-weight: bold;
+}
+.list div{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #4c545a;
+    font-size: 1rem;
+}
+.list div span {
+    color: #4caf50;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.paycards{
+    margin-top: 1rem;
+}

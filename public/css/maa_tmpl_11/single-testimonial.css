@@ -1,0 +1,31 @@
+.single-testimonial-section .single-testimonial 
+{
+    margin: 3rem auto !important;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 8%);
+    border-radius: 0 0 8px 8px;
+    max-width: 330px;
+    width: 100%;
+}
+
+.single-testimonial-section .single-testimonial  .single-testimonial-title 
+{
+    display: flex;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    font-size: 15px;
+    margin-bottom: -2px !important;
+    align-items: center;
+}
+
+@media (max-width: 767px)
+{
+    .single-testimonial-section
+    {
+        padding: 0.5rem;
+    }
+
+}

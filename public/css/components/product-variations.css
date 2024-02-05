@@ -1,0 +1,225 @@
+@media screen and (max-width: 480px) {
+    .c034 .c049 {
+        max-width: initial !important;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    /*div.choice-price{flex-flow:column}*/
+}
+.deskBtns {
+    display: none;
+}
+
+.inStock {
+    background: #fefefe !important;
+}
+
+.notInStock {
+    background: #BB3037;
+}
+
+.outOfStock {
+    display: none;
+    color: #BB3037;
+}
+.selected-variation {
+    background: orange;
+}
+
+.color-selector {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+    gap: 10px;
+    justify-items: flex-start;
+    padding: 10px;
+}
+
+.color-selector .color-item {
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 7rem;
+    border: 1px solid rgba(165, 165, 165, 0.32);
+    background: #FEFEFE;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04), 0px 4px 6px 0px rgba(14, 14, 33, 0.04), 0px 6px 16px 0px rgba(14, 14, 33, 0.04), 0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+
+}
+
+
+.color-item-disabled {
+    width: auto;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 3px 4px;
+    border: 2px solid #d8d8d8;
+
+    cursor: pointer;
+    position: relative;
+    border: 1px dashed #ccc;
+    box-shadow: unset;
+    color: #ccc;
+    opacity: 0.4;
+}
+
+.variationVal {
+    color: #323232;
+    font-family: "Didact Gothic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.color-item.active 
+{
+    border: 2px solid #323232 !important;
+}
+
+
+
+/* 
+
+.color-item:not(:disabled).active:after, .color-item:not(:disabled):hover:after {
+    content: "";
+    border: 3px solid #e76a10 !important;
+    display: block;
+    width: 106%;
+    height: 113%;
+    border-radius: 5px;
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    box-sizing: border-box
+} */
+
+.quantity-selector {
+    display: flex;
+    flex-flow: row;
+}
+
+.c051 span {
+    /* background-color: #ffffff; */
+    box-shadow: none;
+    margin: 0px;
+    color: #000;
+}
+
+.color-selector .color-item span {
+    display: block;
+}
+
+.color-item.invalid_prop {
+    /* background-color: #ffeded !important; */
+    border: 2px solid #BB3037;
+}
+
+.invalid_prop span {
+    color: #BB3037 !important;
+}
+
+.color-item.invalid_prop:hover:after {
+    border: none;
+}
+
+.color-item.invalid_prop:hover span {
+    color: #000 !important;
+}
+
+@media (max-width: 500px) {
+    .quantity-selector {
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .is-large 
+    {
+        width: 80% !important;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+/* = HOTPATCH START = */
+.c034 .c049,
+.c034 .c012,
+.c048 {
+    display: flex;
+    flex-flow: column;
+    width: initial;
+    float: none;
+}
+
+/* tmpl_8 fixes */
+div.t8-selector-box div.t8-select {
+    flex-flow: column;
+}
+
+.t8-selector-box .t8-selector .t8-select div.choice-price,
+.t8-selector-box .t8-selector .t8-select .choice-details span {
+    font-size: 16px;
+}
+
+.select_property {
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #BB3037;
+    display: block;
+    clear: both;
+    margin-top: 4px;
+    padding-left: 1rem;
+}
+
+
+.scale-animation {
+    color: red;
+    animation: scale 2s infinite;
+  }
+
+@media screen and (min-width: 768px) {
+    div.t8-selector-box div.button-holder {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .selectorBox {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .deskBtns {
+        display: flex;
+        gap: 16px;
+        height: 60px;
+        position: relative;
+    }
+    .deskBtns .productSticky {
+        position: absolute;
+        top: 0px;
+        background: #f4f4f4;
+        padding-left: 0px;
+        padding-right: 0px;
+        visibility: visible !important;
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .t8-selector-box .t8-selector .t8-select span.best-choice {
+        font-size: 12px !important;
+        padding: 3px 2px !important;
+    }
+}
+
+/* tmpl_8 fixes */
+
+.c034 .c053 {
+    margin-top: 0px;
+}
+
+/* = HOTPATCH END = */

@@ -1,0 +1,183 @@
+.top-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.top-box-special-offer{
+    background-color: #FF0000;
+    text-align: center;
+    color: #FFFDFD;
+    font-family: "Rubik", Sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.top-box-grade{
+    font-family: "Roboto", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    gap:6px;
+    margin-top: 6px;
+}
+.top-box-grade img{
+    margin-top:-2px;
+}
+.top-box-benefits {
+    margin-top: 20px;
+    padding-left: 3px;
+    text-transform: uppercase;
+}    
+
+.top-box-benefits li {
+    font-family: "Rubik", Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.benefitIcon {
+    height: 23px;
+    width: 23px;
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
+.top-box{
+    padding: 5px 10px;
+}
+.top-box-left{
+    max-width: 100%;
+    width: 49%;
+}
+.top-box-left video{
+    width: 100%;
+}
+.top-box-right{
+    width: 49%;
+}
+.top-box-vide-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-box-subtitle{
+    font-family: "Rubik", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: oblique;
+    margin: 15px 0 25px;
+    text-align: center;
+    line-height: normal;
+    margin:0;
+}
+.top-box-right ul {   
+    padding-left:0px;
+}
+.top-box-name{
+    font-family: "Rubik", Sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: normal;
+    margin:0;
+}
+.top-box-prices div{
+    display: flex;
+    color: rgb(255, 0, 0);
+    font-size: 44px;
+    font-weight: bolder;
+    line-height: 46px; 
+    gap: 4px;
+}
+.top-box-prices div .old-price{
+    text-align: center;
+    margin: 2px 0px 0px 0px;
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    text-decoration: line-through;
+}
+.top-box-prices div .new-price{
+    color: rgb(0, 187, 45);
+}
+.price-and-books{
+    display: grid;
+    justify-content: center;
+}
+.books-text{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.books-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+.top-box-right ul li{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 34px;
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.top-box-ul li{
+    display: flex;
+}
+.top-box-ul li div{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .top-box{
+    width: 100%;
+    flex-flow: initial;
+    padding-bottom: 0 ;
+    }
+    .top-box-name{
+        font-size: 28px;
+        padding: 10px;
+        margin:0px;
+    }
+}
+
+
+@media (max-width: 479px){
+    .top-box{
+        flex-flow: column !important;
+        padding-bottom: 0 !important;
+        width: 100%;
+    }
+    .top-box-left{
+        width: 100%;
+    }
+    .top-box-special-offer{
+        font-size: 22px;
+        padding: 3px 0;
+        margin-bottom: 10px;
+    }
+    .top-box-right ul li{
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 13px;
+    }
+    .top-box-right{
+        width: 100%;
+    }
+}

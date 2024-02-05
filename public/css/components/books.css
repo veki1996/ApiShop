@@ -1,0 +1,85 @@
+.booksHolder {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 14px;
+}
+.booksBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.booksPlus {
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.booksImg img {
+    width: 60px;
+}
+.booksText {
+    width: 70%;
+    text-align: center;
+}
+
+.books-section {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #323232;
+    margin-bottom: 2rem;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04),
+        0px 4px 6px 0px rgba(14, 14, 33, 0.04),
+        0px 6px 16px 0px rgba(14, 14, 33, 0.04),
+        0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+}
+
+.book-item-checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.5px solid #979797;
+}
+
+.books-section .book-checkbox {
+    width: 24px;
+    height: 24px;
+    background-color: #323232 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.books-text h1 {
+    font-size: 16px !important;
+}
+
+.book-item-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: #323232;
+    font-family: "Didact Gothic";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    width: 70%;
+}
+
+.book-item-img img 
+{
+    margin-right: 1rem;
+}
+
+.books-active 
+{
+    border: 1px solid #c69c6d;
+    background: linear-gradient(0deg, #fdf6ef 0%, #fdf6ef 100%), #fefefe;
+}

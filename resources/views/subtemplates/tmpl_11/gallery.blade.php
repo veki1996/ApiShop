@@ -1,0 +1,82 @@
+@php use App\Helpers\ContentHelper; @endphp
+
+<div id="gallery">
+    <h3>
+        {!!$staticContainers['s_text_static_391']->text!!}
+    </h3>
+    <div class="container grid-gall">
+        {!! ContentHelper::dynamicContainers($product->shortSku, 'process|gallery') !!}
+        <!-- process|gallery -->
+    </div>
+</div>
+
+<style>
+    #gallery {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background: #E4E4E4;
+    }
+
+    #gallery h3 {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 4px solid #264169;
+    }
+
+    #gallery .grid-gall {
+        display: flex;
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* grid-gap: 20px; */
+        width: auto;
+    }
+
+    #gallery .grid-gall img {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    #gallery .grid-gall .c061 {
+        display: flex;
+    }
+
+
+    #gallery .grid-gall .c061 .c068 {
+        display: flex;
+    }
+
+    #gallery .grid-gall .c068 div img {
+        max-width: 320px;
+        border: none;
+        width: 100%;
+        margin: 3px;
+    }
+
+    @media screen and (max-width:768px) {
+        #gallery .grid-gall {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        #gallery .grid-gall .c061 .c068 {
+            flex-direction: column;
+        }
+
+        #gallery .grid-gall .c068 div img {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media(max-width: 479px) {
+        #gallery .grid-gall img {
+            max-width: 100%;
+        }
+
+        #gallery {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+</style>

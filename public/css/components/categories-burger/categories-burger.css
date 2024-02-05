@@ -1,0 +1,76 @@
+.categories-burger{
+    overflow: scroll;
+    top:0;
+    left: 0;
+    padding: 3rem 2rem 1rem 1rem;
+    width: 80%;
+    position: fixed;
+    background-color: #fefefe;
+    height: 100vh;
+    z-index: 99999999999999999;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.02), 0px 4px 6px 0px rgba(14, 14, 33, 0.02), 0px 6px 16px 0px rgba(14, 14, 33, 0.2), 0px 0px 10px 0px rgba(14, 14, 33, 0.02);
+
+}
+.product-type-burger{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+}
+
+.categories-filter-burger{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.categories-filter-burger span{
+    
+    font-size: 1rem;
+}
+.burger-about{
+    font-size: 24px;
+    color: #323232;
+    font-weight: bold;
+}
+.close-sidebar-burger{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.burger-parent{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999999999;
+}
+.burger-overlay{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.2);
+   
+}
+.shop_category{
+    color: #323232;
+}
+
+.block 
+{
+    display: block !important;
+}
+
+.filter-parent {
+    margin: 0;
+    margin-top: 1rem;
+    
+}
+
+.filter-parent a {
+    color: #323232 !important;
+}

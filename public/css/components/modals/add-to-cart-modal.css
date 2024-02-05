@@ -1,0 +1,169 @@
+.popUpArrowLeft {
+    clip-path: polygon(
+        40% 0%,
+        40% 20%,
+        100% 20%,
+        100% 80%,
+        40% 80%,
+        40% 100%,
+        0% 50%
+    );
+    width: 24px;
+    height: 24px;
+    background: #c69c6d;
+}
+
+.popUpArrowRight {
+    clip-path: polygon(
+        0% 20%,
+        60% 20%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        60% 80%,
+        0% 80%
+    );
+    width: 24px;
+    height: 24px;
+    background: #c69c6d;
+}
+
+.addedToCartPopp {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    width: 93%;
+    max-width: 600px;
+    display: none;
+}
+
+.addedToCartPopp img.closeBtnPop {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.addedTitle img {
+    width: 46px;
+    height: 46px;
+}
+
+.addedTitle p {
+    color: #323232;
+    text-align: center;
+    font-family: Libre Caslon Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* 140% */
+}
+
+.addedToCartPopp .addedTitle {
+    margin: 16px 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    color: #070707;
+}
+
+.addedToCartPopp .popupBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+
+.addedToCartPopp .popToCart,
+.addedToCartPopp .continueShopping {
+    width: 100%;
+}
+
+.popToCart a {
+    color: #fefefe !important;
+    font-family: "Didact Gothic";
+}
+
+.addedToCartPopp a.checkout-btn,
+.addedToCartPopp .continueShopping {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 100%;
+    background: #fefefe;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgba(14, 14, 33, 0.06),
+        0px 6px 16px rgba(14, 14, 33, 0.04), 0px 4px 6px rgba(14, 14, 33, 0.04),
+        0px 2px 2px rgba(14, 14, 33, 0.04);
+    cursor: pointer;
+}
+
+.addedToCartPopp a.checkout-btn {
+    background: #4e120e;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04),
+        0px 4px 6px 0px rgba(14, 14, 33, 0.04),
+        0px 6px 16px 0px rgba(14, 14, 33, 0.04),
+        0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    color: #fefefe;
+    font-family: "Didact Gothic", "sans-serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.addedToCartPopp .continueShopping {
+    border: 1px solid #323232;
+    background: linear-gradient(0deg, #fefefe 0%, #fefefe 100%), #c69c6d;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04),
+        0px 4px 6px 0px rgba(14, 14, 33, 0.04),
+        0px 6px 16px 0px rgba(14, 14, 33, 0.04),
+        0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+    color: #323232 !important;
+    font-family: "Didact Gothic", "sans-serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.showPopup {
+    display: initial !important;
+}
+
+@media (max-width:400px)
+{
+    .addedToCartPopp a.checkout-btn {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:321px)
+{
+    .addedToCartPopp a.checkout-btn {
+        font-size: 15px;
+    }
+}

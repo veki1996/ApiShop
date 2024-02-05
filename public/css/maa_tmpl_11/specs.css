@@ -1,0 +1,46 @@
+.specs-section {
+    width: 100%;
+    background: green;
+    padding: 1rem 0;
+    margin: auto;
+}
+
+.specs-dropdown {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    margin: auto !important;
+    background: #fefefe;
+    flex-direction: column;
+}
+
+.dropdown-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+    cursor: pointer;
+}
+
+.dropdown-title img {
+    max-width: none;
+    transition: all 0.3s ease;
+}
+
+.specs-content {
+    padding: 1rem;
+    padding-top: 0;
+    display: none;
+}
+
+.rotate {
+transform: rotate(180deg); /* Rotate the arrow icon */
+}
+
+.c065 > div:first-of-type > p:first-of-type {
+font-weight: 800;
+}

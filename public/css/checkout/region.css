@@ -1,0 +1,41 @@
+.input_wrapper {
+    margin-top: 10px;
+    padding-right: 5px;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 2.5em;
+    color: #000;
+    overflow: hidden;
+    width: 100% !important;
+    position: relative;
+    padding: 0;
+    float: none;
+    height: auto;
+    text-align: left;
+    box-sizing: border-box;
+    font-family:'Didact Gothic';
+    margin-right: 0px;
+}
+
+.input_wrapper select {
+    background-color: #fff;
+    border-color: #c9c9c9;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    border-radius: 4px;
+    color: #8c8d8e;
+    min-height: 45px;
+    line-height: 1;
+    padding: 3px 7px 0;
+    max-width: initial;
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0;
+    font: 400 13.3333px Calibri;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Didact Gothic";
+    height: 40px;
+    outline: none;
+}

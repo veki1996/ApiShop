@@ -1,0 +1,10 @@
+# prevents merging into global branch
+merge-check-job:
+  script:
+    | 
+      if [ "$CI_MERGE_REQUEST_TARGET_BRANCH_NAME" == "global" ]
+      then
+        exit 1
+      fi
+  only:
+    - merge_requests

@@ -1,0 +1,206 @@
+.bonuses {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    
+}
+.coupon-data-container{
+    display: flex;
+    width: 33%;
+    /* justify-content: flex-end;
+    flex-direction: column-reverse; */
+    flex-direction: column;
+ }
+ .bonus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04), 0px 4px 6px 0px rgba(14, 14, 33, 0.04), 0px 6px 16px 0px rgba(14, 14, 33, 0.04), 0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+    position: relative;
+    /*margin-top:32px;*/
+    padding: 16px;
+    /*background: #E9FFEC;*/
+    margin-bottom: 1rem;
+}
+
+.left-side-bonuses-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.title-price-bonus-holder{
+    display: flex;
+    flex-direction: column;
+}
+.package-safety{
+    /* margin-top: 2rem; */
+}
+.option-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bonusDes{
+   display: flex;
+   justify-content: space-between;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.bonusImg{
+    width: 88px;
+    height: 88px;
+
+}
+.bonus-img{
+    max-width: fit-content;
+width: 78px;
+height: 69px;
+}
+#brand {
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 767px) {
+    .bonuses {
+        padding: 0 0px;
+    }
+}
+.bonusDes {
+    width: 100%;
+    border-bottom: 0.5px solid #979797;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 4px 8px;
+
+    padding-bottom: 8px;
+}
+.bonusTitle {
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.bonusBtnStyle {
+    display: flex;
+    width:1.5rem;
+    height: 1.5rem;
+    /* padding: 4px 16px; */
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04), 0px 4px 6px 0px rgba(14, 14, 33, 0.04), 0px 6px 16px 0px rgba(14, 14, 33, 0.04), 0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+    cursor: pointer;
+    color: #FEFEFE;
+    text-align: right;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.bonusText {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: row-reverse;
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+}
+.rotate-toggler{
+    transform:rotate(180deg);
+}
+.display-bonus-text{
+    display: none;
+}
+.bonusPrice {
+
+    color: #323232;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    grid-row: 2;
+}
+.custom-checkbox{
+    width: 24px;
+    height: 24px;
+}
+.added 
+{
+    background-color: #323232;
+}
+@media (max-width: 1000px) {
+    .coupon-data-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .coupon-data-container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .bonus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04), 0px 4px 6px 0px rgba(14, 14, 33, 0.04), 0px 6px 16px 0px rgba(14, 14, 33, 0.04), 0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+        position: relative;
+        /*margin-top:32px;*/
+        padding: 16px;
+        /*background: #E9FFEC;*/
+       
+    }
+
+    .left-side-bonuses-container{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .title-price-bonus-holder{
+        display: flex;
+        flex-direction: column;
+    }
+    .option-btn {
+        display: flex;
+        flex-direction: column;
+    }
+    .bonusDes{
+       display: flex;
+       justify-content: space-between;
+    }
+    .bonusImg{
+        width: 88px;
+        height: 88px;
+
+    }
+    .bonus-img{
+        max-width: fit-content;
+    width: 78px;
+    height: 69px;
+    }
+ }
+

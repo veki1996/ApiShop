@@ -1,0 +1,125 @@
+.benefit-banner-container{
+    width: 100%;
+    height: 376px;
+    padding: 2rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.benefit-banner-background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+.benefit-banner-container h1{
+    font-family: 'Libre Caslon Text';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #fefefe;
+    width: 100%;
+    text-align: center;
+}
+.benefits-banner-items{
+    margin-top: 2.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5.5rem;
+    color: #fefefe;
+    text-align: center;
+    width: 70%;
+}
+.benefit img{
+    width: 5rem;
+}
+@media screen and  (max-width:1350px){ 
+    .benefits-banner-items{
+  
+        flex-wrap: wrap;
+    }
+    .benefit-banner-container{
+        height: 39rem;
+     
+    }
+.benefits-banner-items div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    color: #fefefe;
+ 
+    width: 5rem;
+}
+
+.benefit p {
+    text-align: center;
+
+}
+
+@media screen and  (max-width:700px){ 
+    .benefit-banner-container h1 {
+        font-family: 'Libre Caslon Text';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    text-align: center;
+
+    }
+    .benefit-banner-container{
+        height: auto;
+     
+    }
+    .benefits-banner-items{
+        flex-wrap: wrap;
+    }
+}
+@media screen and  (max-width:540px){
+    .benefit-banner-container h1 {
+        font-size: 24px;
+    }
+    .benefit-banner-container{
+        height: auto;
+        padding: 1rem;
+    }
+    .benefits-banner-items {
+        margin-top: 2.5rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 3.5rem;
+        flex-wrap: wrap;}
+    .benefits-banner-items div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: #fefefe;
+        max-width: 6rem;
+        text-align: center;
+    }
+        .benefits-banner-items div img {
+            width: 64px;
+            height: 64px;}
+
+}
+@media screen and  (max-width:431px){
+.benefits-banner-items {
+    margin-top: 2.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    padding: 1.5rem;}
+}
+}

@@ -1,0 +1,366 @@
+.shop-wrapper {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.product-box {
+    padding: 20px;
+}
+
+.product-box a {
+    text-decoration: none;
+}
+
+.product-box img {
+    width: 100%;
+}
+
+.price-old {
+    color: #9c9c9c;
+    font-size: 19px;
+    margin-top: 3px;
+    text-decoration: line-through;
+}
+
+.price-new {
+    font-size: 27px;
+    font-weight: 700;
+    display: block;
+    color: #000;
+    width: auto;
+}
+
+#products-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 16px;
+    justify-items: center;
+    padding-top: 0px;
+}
+
+.verticalScroll {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.popular {
+    display: flex;
+    padding-bottom: 4px !important;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 0.4px solid #a5a5a5;
+}
+
+.popular h1 {
+    color: #070707;
+    font-family: Didact Gothic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 3px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.filter-menu {
+    width: 220px;
+}
+
+.filter-menu .filter-title h1 {
+    color: #070707;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
+.filter-menu .filter-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.filter-menu .filter-title img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product-type h3 {
+    color: #070707;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.chip {
+    margin-top: 10px;
+}
+
+.open {
+    border: none !important;
+}
+
+.open-categories {
+    border-bottom: 0.4px solid #a5a5a5 !important;
+}
+
+.product-type img {
+    width: 16px;
+    height: 16px;
+}
+
+.product-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.4px solid #a5a5a5;
+}
+
+input[type="checkbox"] {
+    border: 2px solid #a5a5a5;
+    accent-color: #070707;
+}
+
+.categories-filter {
+    display: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: 0.4px solid #a5a5a5 !important;
+}
+
+.sort {
+    float: right;
+    padding-bottom: 25px;
+}
+.filters-value {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4px 12px;
+    align-items: center;
+    gap: 4px;
+    min-width: 266px;
+    height: 100%;
+    margin-right: 9px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.filters-value p {
+    color: #070707;
+    font-family: Didact Gothic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+}
+
+.filters-value span {
+    color: #070707;
+    font-family: Didact Gothic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.filter-values-box {
+    padding-left: 10px;
+    opacity: 0;
+    display: flex;
+    width: 100%;
+}
+
+.filter-values-box small {
+    color: #c21225;
+    font-family: Didact Gothic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline !important;
+    cursor: pointer;
+}
+
+.type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    width: 100%;
+    border: 1px solid #070707;
+}
+
+#categoryValue {
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#img-close {
+    color: #070707 !important;
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #fefefe;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 99999;
+    overflow-y: auto;
+}
+
+#sidebar-type {
+    margin-top: 25px;
+}
+
+.product-type h3 {
+    margin-bottom: 10px;
+}
+
+.close-sidebar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.product-type img {
+    cursor: pointer;
+}
+
+.categories-filter label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.chip {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .filter {
+        flex-direction: column;
+    }
+
+    .filter-menu {
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .popular {
+        width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .verticalScroll {
+        display: block;
+    }
+
+    .horizontalScroll {
+        display: none;
+    }
+
+    .productBox {
+        max-width: 520px;
+    }
+
+    .productBoxBtn {
+        margin-right: 14px;
+    }
+}
+
+@media (max-width: 1250px) {
+    #products-holder {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    #products-holder {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .popular {
+        width: 97%;
+    }
+}
+
+@media (max-width: 768px) {
+    #products-holder {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .popular h1 {
+        font-size: 5.5vmin;
+    }
+
+    .filter-title {
+        border: none !important;
+        flex-direction: row-reverse;
+        justify-content: flex-end !important;
+    }
+
+    .filter-category {
+        display: none;
+    }
+
+    .filter-title img {
+        margin-right: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter {
+        margin-top: 45px;
+    }
+    #productHolder {
+        grid-template-columns: 1fr;
+    }
+
+    .popular h1 {
+        font-size: 5.5vmin;
+        line-height: 12px;
+        padding-bottom: 4px !important;
+    }
+
+    .filters-value {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

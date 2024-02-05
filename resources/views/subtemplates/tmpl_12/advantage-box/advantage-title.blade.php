@@ -1,0 +1,1 @@
+<h2>{!!$allContainers['s_text_var_12']->text!!}</h2>

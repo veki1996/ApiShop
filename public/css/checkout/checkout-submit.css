@@ -1,0 +1,76 @@
+
+.checkout-submit-data {
+    height: fit-content;
+    padding: 1rem 2rem;
+    border: 0.4px solid rgba(165, 165, 165, 0.32);
+    background: #FEFEFE;
+    box-shadow: 0px 2px 2px 0px rgba(14, 14, 33, 0.04), 0px 4px 6px 0px rgba(14, 14, 33, 0.04), 0px 6px 16px 0px rgba(14, 14, 33, 0.04), 0px 0px 10px 0px rgba(14, 14, 33, 0.06);
+}
+.checkout-order-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.order-info-title {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+    font-family: 'Libre Caslon Text';
+    font-size: 24px;
+}
+.order-products, .order-services {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 0 0 ;
+}
+
+.product-data, .service-data {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #8A8A8A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    padding: 1rem 0;
+}
+.price-and-service-remove{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.total-checkout-price {
+    display: flex;
+    width: 100%;
+    color: #323232;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-family: 'Didact Gothic';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    padding: 1.5rem 0;
+    border-top: 1px solid black;
+}
+.price-and-remove{
+    display: flex;
+    align-items: center;
+}
+/* MEDIA QUERIES */
+@media (max-width: 1000px) {
+    .checkout-submit-data{
+        width: auto;
+    }
+}
+@media (max-width: 800px) {
+.checkout-submit-data {
+    padding:1rem 1rem
+}
+.product-data{
+    text-align: left;
+}
+}

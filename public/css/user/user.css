@@ -1,0 +1,354 @@
+.user-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 9999999;
+}
+
+.user-popup h2 {
+    text-align: center;
+    font-family: "Didact Gothic", "sans-serif";
+    font-size: 2rem;
+    margin: 0;
+}
+
+.user-popup .user-sign-options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user-popup .user-sign-options .user-sign-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 1rem;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
+    cursor: pointer;
+}
+
+.user-popup .user-sign-options .user-sign-option img {
+    margin-right: 0.5rem;
+}
+
+.user-popup .user-sign-options .user-sign-option p {
+    font-size: 1rem;
+}
+
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: "Didact Gothic", "sans-serif";
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sign-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #323232;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Didact Gothic", "sans-serif";
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-btn:hover {
+    color: #666;
+}
+
+.forgot-password-link {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 2px;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+
+.signup-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.signup-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.back-to-signin {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-to-signin:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: crimson;
+}
+
+.dropbtn {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* .dropdown:hover .dropdown-content {
+        display: block;
+    } */
+
+.dropdown:hover .dropbtn {
+    opacity: 0.8;
+}
+
+.profile-wrapper {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.profile-information {
+    width: 50%;
+    min-height: 70vh;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem;
+    font-family: "Didact Gothic", "sans-serif";
+}
+
+.order-information img {
+    width: 6rem;
+    height: 6rem;
+}
+.custom-form {
+    margin-top: 24px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.875rem;
+    color: #4a5568;
+    margin-bottom: 4px;
+}
+
+.form-group input {
+    border: 1px solid #d2d6dc;
+    border-radius: 0.25rem;
+    padding: 8px;
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-group input:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.submit-button {
+    background-color: #2d3748;
+    color: #fefefe !important;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #4a5568;
+}
+
+.submit-button:focus {
+    background-color: #4a5568;
+}
+
+.submit-button:active {
+    background-color: #1a202c;
+}
+
+.orders-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 70vh;
+    
+}
+
+.order-information {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.one-order {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.order-product-img img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.order-product-info {
+    flex: 1;
+}
+
+.order-product-prices {
+    text-align: left;
+}
+
+.order-product-info p:nth-child(1) {
+    font-weight: bold;
+    margin: 0;
+}
+
+.order-img-product-info {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.order-product-prices p:nth-child(1) {
+    font-weight: bold;
+    margin: 0;
+}
+
+
+@media (max-width: 1440px) {
+    .dropdown-content {
+        left: -7rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .user-popup {
+        width: 95%;
+
+        padding: 1rem;
+    }
+
+    .user-popup h2 {
+        font-size: 1.5rem;
+    }
+
+    .user-popup .user-sign-options {
+        flex-wrap: wrap;
+    }
+
+    .user-popup .user-sign-options .user-sign-option {
+        width: 100%;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+    .profile-wrapper {
+        margin-top: 20%;
+    }
+    .profile-information {
+        width: 95%;
+    }
+    .order-img-product-info
+    {
+        width: 100%;
+    }
+}
